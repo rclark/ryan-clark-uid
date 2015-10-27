@@ -1,0 +1,25 @@
+{
+  "name": "rcuid",
+  "version": "1.0.0",
+  "description": "Mirror for your https://github.com/rclark/cat",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rclark/ryan-clark-uid.git"
+  },
+  "author": "Ryan Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclark/ryan-clark-uid/issues"
+  },
+  "homepage": "https://github.com/rclark/ryan-clark-uid#readme",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "cuid": "^1.3.8"
+  }
+}
